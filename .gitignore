@@ -1,0 +1,20 @@
+
+/world
+/world_nether
+/world_the_end
+/logs
+/banned-ips.json
+/banned-players.json
+/ops.json
+/usercache.json
+/whitelist.json
+/plugins/PluginMetrics
+/plugins/bStats
+/crash-reports
+/worlds
+# order always changes...
+/spigot.yml
+/commands.yml
+/bukkit.yml
+/server.properties
+/permissions.yml
