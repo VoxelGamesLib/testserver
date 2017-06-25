@@ -20,9 +20,9 @@
   },
   "persistence": {
     "user": "voxelgameslib",
-    "pass": "pass",
+    "pass": "*********************",
     "driver": "com.mysql.jdbc.Driver",
-    "url": "jdbc:mysql://localhost:3306/voxelgameslib",
+    "url": "jdbc:mysql://atlas.minidigger.me:3336/VoxelGamesLib",
     "dialect": "org.hibernate.dialect.MySQL5Dialect",
     "pool_size": 10,
     "showSQL": true
