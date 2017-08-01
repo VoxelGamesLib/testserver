@@ -1,6 +1,6 @@
 {
   "currentVersion": 2,
-  "logLevel": "INFO",
+  "logLevel": "FINER",
   "useRoleSystem": true,
   "availableLanguages": [
     "en",
