@@ -1,0 +1,61 @@
+{
+  "name": "test",
+  "items": {
+    "0": {
+      "type": 1,
+      "amount": 1,
+      "durability": 0,
+      "meta": {
+        "displayName": "Test Stone",
+        "repairCost": 0,
+        "hideFlag": 0,
+        "unbreakable": false,
+        "unhandledTags": {},
+        "className": "org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem"
+      }
+    },
+    "1": {
+      "type": 276,
+      "amount": 2,
+      "durability": 0,
+      "meta": {
+        "displayName": "§cCool sword",
+        "enchantments": {
+          "DAMAGE_ALL": 5
+        },
+        "repairCost": 0,
+        "hideFlag": 0,
+        "unbreakable": false,
+        "unhandledTags": {},
+        "className": "org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem"
+      }
+    },
+    "2": {
+      "type": 301,
+      "amount": 3,
+      "durability": 10,
+      "meta": {
+        "color": {
+          "red": -1,
+          "green": 0,
+          "blue": 0
+        },
+        "displayName": "Cool bots",
+        "lore": [
+          "test",
+          "Lore"
+        ],
+        "enchantments": {
+          "PROTECTION_FALL": 5,
+          "PROTECTION_EXPLOSIONS": 2
+        },
+        "repairCost": 0,
+        "hideFlag": 0,
+        "unbreakable": false,
+        "unhandledTags": {},
+        "className": "org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaLeatherArmor"
+      }
+    }
+  },
+  "abilities": {}
+}
