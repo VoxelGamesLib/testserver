@@ -1,0 +1,65 @@
+{
+  "gameMode": {
+    "name": "Hub",
+    "className": "com.voxelgameslib.hub.HubGame"
+  },
+  "minPlayers": 2147483647,
+  "maxPlayers": 2147483647,
+  "phases": [
+    {
+      "name": "HubPhase",
+      "className": "com.voxelgameslib.hub.HubPhase",
+      "allowJoin": true,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": true,
+          "type": "LOBBY",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "mode": "ADVENTURE",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "com.voxelgameslib.hub.HubFeature"
+        },
+        {
+          "name": "AutoRespawnFeature"
+        },
+        {
+          "name": "com.voxelgameslib.hub.LadderKingFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "NoHungerLossFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        }
+      ]
+    }
+  ],
+  "gameData": {
+    "class com.voxelgameslib.voxelgameslib.game.DefaultGameData": {}
+  }
+}

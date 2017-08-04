@@ -1,0 +1,164 @@
+{
+  "gameMode": {
+    "name": "1vs1",
+    "className": "me.minidigger.voxelgameslib.onevsone.OneVsOneGame"
+  },
+  "minPlayers": 2,
+  "maxPlayers": 2,
+  "phases": [
+    {
+      "name": "LobbyPhase",
+      "className": "LobbyWithVotePhase",
+      "allowJoin": true,
+      "allowSpectate": false,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "LOBBY",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "ADVENTURE",
+          "name": "GameModeFeature"
+        },
+        {
+          "startDelay": 2400,
+          "fastStartDelay": 300,
+          "name": "LobbyFeature"
+        },
+        {
+          "name": "NoHungerLossFeature"
+        },
+        {
+          "name": "ScoreboardFeature"
+        },
+        {
+          "message": "",
+          "color": "BLUE",
+          "style": "SEGMENTED_20",
+          "name": "BossBarFeature"
+        },
+        {
+          "maxMaps": 3,
+          "enableVoteMenu": true,
+          "name": "VoteFeature"
+        }
+      ]
+    },
+    {
+      "ticks": 200,
+      "name": "GracePhase",
+      "className": "GracePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "name": "MapInfoFeature"
+        },
+        {
+          "name": "ScoreboardFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        }
+      ]
+    },
+    {
+      "ticks": 2400,
+      "name": "OneVsOnePhase",
+      "className": "me.minidigger.voxelgameslib.onevsone.OneVsOnePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": true,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": false,
+          "isInitialSpawn": false,
+          "name": "SpawnFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "me.minidigger.voxelgameslib.onevsone.OneVsOneFeature"
+        },
+        {
+          "name": "DuelFeature"
+        },
+        {
+          "allowedKits": [],
+          "name": "KitFeature"
+        },
+        {
+          "name": "AutoRespawnFeature"
+        }
+      ]
+    }
+  ],
+  "gameData": {
+    "class com.voxelgameslib.voxelgameslib.game.DefaultGameData": {}
+  }
+}

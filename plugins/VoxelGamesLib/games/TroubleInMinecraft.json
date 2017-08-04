@@ -1,0 +1,247 @@
+{
+  "gameMode": {
+    "name": "TroubleInMinecraft",
+    "className": "io.indices.troubleinminecraft.TroubleInMinecraftGame"
+  },
+  "minPlayers": 2,
+  "maxPlayers": 2,
+  "phases": [
+    {
+      "name": "LobbyPhase",
+      "className": "LobbyWithVotePhase",
+      "allowJoin": true,
+      "allowSpectate": false,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "LOBBY",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "ADVENTURE",
+          "name": "GameModeFeature"
+        },
+        {
+          "startDelay": 2400,
+          "fastStartDelay": 300,
+          "name": "LobbyFeature"
+        },
+        {
+          "name": "NoHungerLossFeature"
+        },
+        {
+          "name": "ScoreboardFeature"
+        },
+        {
+          "message": "",
+          "color": "BLUE",
+          "style": "SEGMENTED_20",
+          "name": "BossBarFeature"
+        },
+        {
+          "maxMaps": 3,
+          "enableVoteMenu": true,
+          "name": "VoteFeature"
+        }
+      ]
+    },
+    {
+      "ticks": 600,
+      "name": "GracePhase",
+      "className": "io.indices.troubleinminecraft.phases.GracePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "name": "PersonalScoreboardFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.ChestItemPickupFeature"
+        },
+        {
+          "innocentKillTraitorKarma": 20,
+          "innocentKillInnocentKarma": -20,
+          "innocentKillDetectiveKarma": -40,
+          "detectiveKillTraitorKarma": 20,
+          "detectiveKillInnocentKarma": -20,
+          "detectiveKillDetectiveKarma": -40,
+          "traitorKillDetectiveKarma": 40,
+          "traitorKillInnocentKarma": 20,
+          "traitorKillTraitorKarma": -40,
+          "name": "io.indices.troubleinminecraft.features.GameFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.PreGameFeature"
+        }
+      ]
+    },
+    {
+      "ticks": 3600,
+      "name": "ActivePhase",
+      "className": "io.indices.troubleinminecraft.phases.ActivePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": false,
+          "isInitialSpawn": false,
+          "name": "SpawnFeature"
+        },
+        {
+          "name": "PersonalScoreboardFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "NoHungerLossFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.ChestItemPickupFeature"
+        },
+        {
+          "innocentKillTraitorKarma": 20,
+          "innocentKillInnocentKarma": -20,
+          "innocentKillDetectiveKarma": -40,
+          "detectiveKillTraitorKarma": 20,
+          "detectiveKillInnocentKarma": -20,
+          "detectiveKillDetectiveKarma": -40,
+          "traitorKillDetectiveKarma": 40,
+          "traitorKillInnocentKarma": 20,
+          "traitorKillTraitorKarma": -40,
+          "name": "io.indices.troubleinminecraft.features.GameFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.DeadBodiesFeature"
+        }
+      ]
+    },
+    {
+      "ticks": 400,
+      "name": "PostGamePhase",
+      "className": "io.indices.troubleinminecraft.phases.PostGamePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": false,
+          "name": "SpawnFeature"
+        },
+        {
+          "name": "PersonalScoreboardFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "mode": "ADVENTURE",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.PostGameFeature"
+        }
+      ]
+    }
+  ],
+  "gameData": {
+    "class com.voxelgameslib.voxelgameslib.game.DefaultGameData": {}
+  }
+}
