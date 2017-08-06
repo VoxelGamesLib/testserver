@@ -237,6 +237,9 @@
         },
         {
           "name": "io.indices.troubleinminecraft.features.PostGameFeature"
+        },
+        {
+          "name": "io.indices.troubleinminecraft.features.DeadBodiesFeature"
         }
       ]
     }
