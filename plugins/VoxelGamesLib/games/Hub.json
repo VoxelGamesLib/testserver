@@ -55,6 +55,12 @@
           "heal": true,
           "feed": true,
           "name": "HealFeature"
+        },
+        {
+          "name": "DoubleJumpFeature"
+        },
+        {
+          "name": "JumpPadFeature"
         }
       ]
     }
