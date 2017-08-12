@@ -61,6 +61,56 @@
         },
         {
           "name": "JumpPadFeature"
+        },
+        {
+          "shouldChange": false,
+          "time": 6000,
+          "name": "TimeFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "LLAMA_SPIT",
+            "EVOKER_FANGS",
+            "PLAYER",
+            "FALLING_BLOCK",
+            "WEATHER",
+            "LINGERING_POTION",
+            "ENDER_SIGNAL",
+            "ARROW",
+            "BOAT",
+            "WITHER_SKULL",
+            "UNKNOWN",
+            "FIREWORK",
+            "SNOWMAN",
+            "ITEM_FRAME",
+            "COMPLEX_PART",
+            "SMALL_FIREBALL",
+            "LEASH_HITCH",
+            "EGG",
+            "IRON_GOLEM",
+            "SPECTRAL_ARROW",
+            "FISHING_HOOK",
+            "THROWN_EXP_BOTTLE",
+            "LIGHTNING",
+            "TIPPED_ARROW",
+            "SHULKER_BULLET",
+            "SPLASH_POTION",
+            "EXPERIENCE_ORB",
+            "SNOWBALL",
+            "PRIMED_TNT",
+            "FIREBALL",
+            "ENDER_PEARL",
+            "ENDER_CRYSTAL",
+            "ARMOR_STAND",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "PAINTING"
+          ],
+          "blacklist": [],
+          "removeExisting": true,
+          "denySpawn": true,
+          "name": "MobFeature"
         }
       ]
     }
