@@ -111,6 +111,9 @@
           "removeExisting": true,
           "denySpawn": true,
           "name": "MobFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
         }
       ]
     }
