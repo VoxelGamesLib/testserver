@@ -1,0 +1,114 @@
+{
+  "gameMode": {
+    "name": "EditMode",
+    "className": "com.voxelgameslib.voxelgameslib.editmode.EditModeGame"
+  },
+  "minPlayers": 0,
+  "maxPlayers": 1,
+  "phases": [
+    {
+      "className": "DummyPhase",
+      "allowJoin": true,
+      "allowSpectate": false,
+      "features": [
+        {
+          "name": "DummyFeature"
+        }
+      ]
+    },
+    {
+      "name": "EditMode",
+      "className": "com.voxelgameslib.voxelgameslib.editmode.EditModePhase",
+      "allowJoin": true,
+      "allowSpectate": false,
+      "features": [
+        {
+          "name": "AutoRespawnFeature"
+        },
+        {
+          "message": "Edit Mode active",
+          "color": "RED",
+          "style": "SEGMENTED_20",
+          "name": "BossBarFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "DoubleJumpFeature"
+        },
+        {
+          "mode": "CREATIVE",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "JumpPadFeature"
+        },
+        {
+          "name": "VoidTeleportFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "ARMOR_STAND",
+            "ARROW",
+            "BOAT",
+            "COMPLEX_PART",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "EGG",
+            "ENDER_CRYSTAL",
+            "ENDER_PEARL",
+            "ENDER_SIGNAL",
+            "EVOKER_FANGS",
+            "EXPERIENCE_ORB",
+            "FALLING_BLOCK",
+            "FIREBALL",
+            "FIREWORK",
+            "FISHING_HOOK",
+            "IRON_GOLEM",
+            "ITEM_FRAME",
+            "LEASH_HITCH",
+            "LIGHTNING",
+            "LINGERING_POTION",
+            "LLAMA_SPIT",
+            "PAINTING",
+            "PLAYER",
+            "PRIMED_TNT",
+            "SHULKER_BULLET",
+            "SMALL_FIREBALL",
+            "SNOWBALL",
+            "SNOWMAN",
+            "SPECTRAL_ARROW",
+            "SPLASH_POTION",
+            "THROWN_EXP_BOTTLE",
+            "TIPPED_ARROW",
+            "UNKNOWN",
+            "WEATHER",
+            "WITHER_SKULL"
+          ],
+          "blacklist": [],
+          "removeExisting": false,
+          "denySpawn": true,
+          "name": "MobFeature"
+        },
+        {
+          "shouldChange": false,
+          "time": 6000,
+          "name": "TimeFeature"
+        }
+      ]
+    }
+  ],
+  "gameData": {}
+}

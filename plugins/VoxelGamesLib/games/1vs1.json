@@ -244,6 +244,51 @@
         },
         {
           "name": "AutoRespawnFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "ARMOR_STAND",
+            "ARROW",
+            "BOAT",
+            "COMPLEX_PART",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "EGG",
+            "ENDER_CRYSTAL",
+            "ENDER_PEARL",
+            "ENDER_SIGNAL",
+            "EVOKER_FANGS",
+            "EXPERIENCE_ORB",
+            "FALLING_BLOCK",
+            "FIREBALL",
+            "FIREWORK",
+            "FISHING_HOOK",
+            "IRON_GOLEM",
+            "ITEM_FRAME",
+            "LEASH_HITCH",
+            "LIGHTNING",
+            "LINGERING_POTION",
+            "LLAMA_SPIT",
+            "PAINTING",
+            "PLAYER",
+            "PRIMED_TNT",
+            "SHULKER_BULLET",
+            "SMALL_FIREBALL",
+            "SNOWBALL",
+            "SNOWMAN",
+            "SPECTRAL_ARROW",
+            "SPLASH_POTION",
+            "THROWN_EXP_BOTTLE",
+            "TIPPED_ARROW",
+            "UNKNOWN",
+            "WEATHER",
+            "WITHER_SKULL"
+          ],
+          "blacklist": [],
+          "removeExisting": true,
+          "denySpawn": true,
+          "name": "MobFeature"
         }
       ]
     }
