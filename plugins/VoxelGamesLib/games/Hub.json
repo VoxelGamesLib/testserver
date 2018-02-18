@@ -115,7 +115,8 @@
         {
           "name": "ClearInventoryFeature"
         }
-      ]
+      ],
+      "victoryConditions": []
     }
   ],
   "gameData": {

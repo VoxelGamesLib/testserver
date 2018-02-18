@@ -114,7 +114,8 @@
           "enableVoteMenu": true,
           "name": "VoteFeature"
         }
-      ]
+      ],
+      "victoryConditions": []
     },
     {
       "ticks": 200,
@@ -209,7 +210,8 @@
           "denySpawn": true,
           "name": "MobFeature"
         }
-      ]
+      ],
+      "victoryConditions": []
     },
     {
       "ticks": 2400,
@@ -292,6 +294,11 @@
         },
         {
           "name": "BleedFeature"
+        }
+      ],
+      "victoryConditions": [
+        {
+          "classname": "DuelVictoryCondition"
         }
       ]
     }
