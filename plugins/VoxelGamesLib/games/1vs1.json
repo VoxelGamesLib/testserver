@@ -298,7 +298,7 @@
       ],
       "victoryConditions": [
         {
-          "classname": "DuelVictoryCondition"
+          "classname": "me.minidigger.voxelgameslib.onevsone.OneVsOneVictoryCondition"
         }
       ]
     }
