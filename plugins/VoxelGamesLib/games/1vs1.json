@@ -209,6 +209,9 @@
           "removeExisting": true,
           "denySpawn": true,
           "name": "MobFeature"
+        },
+        {
+          "name": "SpectatorFeature"
         }
       ],
       "victoryConditions": []
@@ -294,6 +297,9 @@
         },
         {
           "name": "BleedFeature"
+        },
+        {
+          "name": "SpectatorFeature"
         }
       ],
       "victoryConditions": [

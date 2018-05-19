@@ -42,7 +42,7 @@ world-settings:
     use-chunk-inhabited-timer: true
     remove-corrupt-tile-entities: false
     keep-spawn-loaded-range: 8
-    auto-save-interval: -1
+    auto-save-interval: 0
     generator-settings:
       canyon: true
       caves: true

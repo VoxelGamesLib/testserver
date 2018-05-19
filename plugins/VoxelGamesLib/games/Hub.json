@@ -10,7 +10,7 @@
       "name": "HubPhase",
       "className": "com.voxelgameslib.hub.HubPhase",
       "allowJoin": true,
-      "allowSpectate": true,
+      "allowSpectate": false,
       "features": [
         {
           "shouldUnload": true,
