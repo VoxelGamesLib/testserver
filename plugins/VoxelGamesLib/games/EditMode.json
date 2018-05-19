@@ -14,7 +14,8 @@
         {
           "name": "DummyFeature"
         }
-      ]
+      ],
+      "victoryConditions": []
     },
     {
       "name": "EditMode",
@@ -107,7 +108,8 @@
           "time": 6000,
           "name": "TimeFeature"
         }
-      ]
+      ],
+      "victoryConditions": []
     }
   ],
   "gameData": {}

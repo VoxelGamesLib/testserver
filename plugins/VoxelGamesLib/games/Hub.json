@@ -3,7 +3,7 @@
     "name": "Hub",
     "className": "com.voxelgameslib.hub.HubGame"
   },
-  "minPlayers": 2147483647,
+  "minPlayers": 0,
   "maxPlayers": 2147483647,
   "phases": [
     {
