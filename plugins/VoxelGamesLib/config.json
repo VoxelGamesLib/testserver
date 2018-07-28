@@ -22,7 +22,7 @@
     "user": "VoxelGamesLib",
     "pass": "superSecurePassword",
     "driver": "com.mysql.jdbc.Driver",
-    "url": "jdbc:mysql://bender.minidigger.me:3336/VoxelGamesLib",
+    "url": "jdbc:mysql://glados.minidigger.me:3336/VoxelGamesLib",
     "dialect": "org.hibernate.dialect.MySQL5Dialect",
     "pool_size": 10,
     "showSQL": true,

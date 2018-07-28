@@ -99,7 +99,7 @@
             "WITHER_SKULL"
           ],
           "blacklist": [],
-          "removeExisting": false,
+          "removeExisting": true,
           "denySpawn": true,
           "name": "MobFeature"
         },

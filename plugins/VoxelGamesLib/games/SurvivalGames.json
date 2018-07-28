@@ -1,0 +1,322 @@
+{
+  "gameMode": {
+    "name": "SurvivalGames",
+    "className": "com.voxelgameslib.survivalgames.SurvivalGamesGame"
+  },
+  "minPlayers": 2,
+  "maxPlayers": 100,
+  "phases": [
+    {
+      "name": "LobbyPhase",
+      "className": "LobbyWithVotePhase",
+      "allowJoin": true,
+      "allowSpectate": false,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "LOBBY",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "ADVENTURE",
+          "name": "GameModeFeature"
+        },
+        {
+          "startDelay": 2400,
+          "fastStartDelay": 300,
+          "name": "LobbyFeature"
+        },
+        {
+          "name": "NoHungerLossFeature"
+        },
+        {
+          "name": "ScoreboardFeature"
+        },
+        {
+          "message": "",
+          "color": "BLUE",
+          "style": "SEGMENTED_20",
+          "name": "BossBarFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "ARMOR_STAND",
+            "ARROW",
+            "BOAT",
+            "COMPLEX_PART",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "EGG",
+            "ENDER_CRYSTAL",
+            "ENDER_PEARL",
+            "ENDER_SIGNAL",
+            "EVOKER_FANGS",
+            "EXPERIENCE_ORB",
+            "FALLING_BLOCK",
+            "FIREBALL",
+            "FIREWORK",
+            "FISHING_HOOK",
+            "IRON_GOLEM",
+            "ITEM_FRAME",
+            "LEASH_HITCH",
+            "LIGHTNING",
+            "LINGERING_POTION",
+            "LLAMA_SPIT",
+            "PAINTING",
+            "PLAYER",
+            "PRIMED_TNT",
+            "SHULKER_BULLET",
+            "SMALL_FIREBALL",
+            "SNOWBALL",
+            "SNOWMAN",
+            "SPECTRAL_ARROW",
+            "SPLASH_POTION",
+            "THROWN_EXP_BOTTLE",
+            "TIPPED_ARROW",
+            "UNKNOWN",
+            "WEATHER",
+            "WITHER_SKULL"
+          ],
+          "blacklist": [],
+          "removeExisting": true,
+          "denySpawn": true,
+          "name": "MobFeature"
+        },
+        {
+          "maxMaps": 3,
+          "enableVoteMenu": true,
+          "name": "VoteFeature"
+        }
+      ],
+      "victoryConditions": []
+    },
+    {
+      "ticks": 200,
+      "name": "GracePhase",
+      "className": "GracePhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": false,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": true,
+          "isInitialSpawn": true,
+          "name": "SpawnFeature"
+        },
+        {
+          "name": "MapInfoFeature"
+        },
+        {
+          "name": "ScoreboardFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        },
+        {
+          "whitelist": [],
+          "blacklist": [],
+          "name": "NoBlockPlaceFeature"
+        },
+        {
+          "name": "ClearInventoryFeature"
+        },
+        {
+          "name": "NoDamageFeature"
+        },
+        {
+          "heal": true,
+          "feed": true,
+          "name": "HealFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "ARMOR_STAND",
+            "ARROW",
+            "BOAT",
+            "COMPLEX_PART",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "EGG",
+            "ENDER_CRYSTAL",
+            "ENDER_PEARL",
+            "ENDER_SIGNAL",
+            "EVOKER_FANGS",
+            "EXPERIENCE_ORB",
+            "FALLING_BLOCK",
+            "FIREBALL",
+            "FIREWORK",
+            "FISHING_HOOK",
+            "IRON_GOLEM",
+            "ITEM_FRAME",
+            "LEASH_HITCH",
+            "LIGHTNING",
+            "LINGERING_POTION",
+            "LLAMA_SPIT",
+            "PAINTING",
+            "PLAYER",
+            "PRIMED_TNT",
+            "SHULKER_BULLET",
+            "SMALL_FIREBALL",
+            "SNOWBALL",
+            "SNOWMAN",
+            "SPECTRAL_ARROW",
+            "SPLASH_POTION",
+            "THROWN_EXP_BOTTLE",
+            "TIPPED_ARROW",
+            "UNKNOWN",
+            "WEATHER",
+            "WITHER_SKULL"
+          ],
+          "blacklist": [],
+          "removeExisting": true,
+          "denySpawn": true,
+          "name": "MobFeature"
+        },
+        {
+          "name": "SpectatorFeature"
+        },
+        {
+          "name": "com.voxelgameslib.survivalgames.PodFeature"
+        }
+      ],
+      "victoryConditions": []
+    },
+    {
+      "ticks": 2400,
+      "name": "SurvivalGamesPhase",
+      "className": "com.voxelgameslib.survivalgames.SurvivalGamesPhase",
+      "allowJoin": false,
+      "allowSpectate": true,
+      "features": [
+        {
+          "shouldUnload": true,
+          "type": "VOTEWINNER",
+          "name": "MapFeature"
+        },
+        {
+          "isRespawn": false,
+          "isInitialSpawn": false,
+          "name": "SpawnFeature"
+        },
+        {
+          "mode": "SURVIVAL",
+          "name": "GameModeFeature"
+        },
+        {
+          "name": "com.voxelgameslib.survivalgames.SurvivalGamesFeature"
+        },
+        {
+          "name": "AutoRespawnFeature"
+        },
+        {
+          "whitelist": [
+            "AREA_EFFECT_CLOUD",
+            "ARMOR_STAND",
+            "ARROW",
+            "BOAT",
+            "COMPLEX_PART",
+            "DRAGON_FIREBALL",
+            "DROPPED_ITEM",
+            "EGG",
+            "ENDER_CRYSTAL",
+            "ENDER_PEARL",
+            "ENDER_SIGNAL",
+            "EVOKER_FANGS",
+            "EXPERIENCE_ORB",
+            "FALLING_BLOCK",
+            "FIREBALL",
+            "FIREWORK",
+            "FISHING_HOOK",
+            "IRON_GOLEM",
+            "ITEM_FRAME",
+            "LEASH_HITCH",
+            "LIGHTNING",
+            "LINGERING_POTION",
+            "LLAMA_SPIT",
+            "PAINTING",
+            "PLAYER",
+            "PRIMED_TNT",
+            "SHULKER_BULLET",
+            "SMALL_FIREBALL",
+            "SNOWBALL",
+            "SNOWMAN",
+            "SPECTRAL_ARROW",
+            "SPLASH_POTION",
+            "THROWN_EXP_BOTTLE",
+            "TIPPED_ARROW",
+            "UNKNOWN",
+            "WEATHER",
+            "WITHER_SKULL"
+          ],
+          "blacklist": [],
+          "removeExisting": true,
+          "denySpawn": true,
+          "name": "MobFeature"
+        },
+        {
+          "name": "SpectatorFeature"
+        },
+        {
+          "whitelist": [
+            "LEAVES",
+            "LEAVES_2",
+            "YELLOW_FLOWER",
+            "RED_ROSE",
+            "VINE",
+            "BROWN_MUSHROOM",
+            "HUGE_MUSHROOM_1",
+            "HUGE_MUSHROOM_2",
+            "RED_MUSHROOM",
+            "MELON_BLOCK",
+            "WHEAT",
+            "PUMPKIN"
+          ],
+          "blacklist": [],
+          "name": "NoBlockBreakFeature"
+        }
+      ],
+      "victoryConditions": []
+    }
+  ],
+  "gameData": {
+    "class com.voxelgameslib.voxelgameslib.game.DefaultGameData": {}
+  }
+}
