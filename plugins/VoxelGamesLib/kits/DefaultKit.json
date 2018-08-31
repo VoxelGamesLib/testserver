@@ -3,6 +3,7 @@
   "items": {
     "0": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
+      "v": 1628,
       "type": "STONE",
       "meta": {
         "\u003d\u003d": "ItemMeta",
@@ -12,6 +13,7 @@
     },
     "1": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
+      "v": 1628,
       "type": "DIAMOND_SWORD",
       "amount": 2,
       "meta": {
@@ -25,8 +27,8 @@
     },
     "2": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
+      "v": 1628,
       "type": "LEATHER_BOOTS",
-      "damage": 10,
       "amount": 3,
       "meta": {
         "\u003d\u003d": "ItemMeta",
@@ -37,9 +39,10 @@
           "Lore"
         ],
         "enchants": {
-          "PROTECTION_FALL": 5,
-          "PROTECTION_EXPLOSIONS": 2
+          "PROTECTION_EXPLOSIONS": 2,
+          "PROTECTION_FALL": 5
         },
+        "Damage": 10,
         "color": {
           "\u003d\u003d": "Color",
           "RED": 255,
