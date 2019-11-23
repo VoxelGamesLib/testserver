@@ -3,7 +3,7 @@
   "items": {
     "0": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
-      "v": 1628,
+      "v": 1631,
       "type": "STONE",
       "meta": {
         "\u003d\u003d": "ItemMeta",
@@ -13,7 +13,7 @@
     },
     "1": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
-      "v": 1628,
+      "v": 1631,
       "type": "DIAMOND_SWORD",
       "amount": 2,
       "meta": {
@@ -27,7 +27,7 @@
     },
     "2": {
       "\u003d\u003d": "org.bukkit.inventory.ItemStack",
-      "v": 1628,
+      "v": 1631,
       "type": "LEATHER_BOOTS",
       "amount": 3,
       "meta": {
