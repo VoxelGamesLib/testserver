@@ -100,6 +100,7 @@
             "SPLASH_POTION",
             "THROWN_EXP_BOTTLE",
             "TIPPED_ARROW",
+            "TRIDENT",
             "UNKNOWN",
             "WEATHER",
             "WITHER_SKULL"
@@ -201,6 +202,7 @@
             "SPLASH_POTION",
             "THROWN_EXP_BOTTLE",
             "TIPPED_ARROW",
+            "TRIDENT",
             "UNKNOWN",
             "WEATHER",
             "WITHER_SKULL"
@@ -282,6 +284,7 @@
             "SPLASH_POTION",
             "THROWN_EXP_BOTTLE",
             "TIPPED_ARROW",
+            "TRIDENT",
             "UNKNOWN",
             "WEATHER",
             "WITHER_SKULL"
@@ -296,16 +299,25 @@
         },
         {
           "whitelist": [
-            "LEAVES",
-            "LEAVES_2",
-            "YELLOW_FLOWER",
-            "RED_ROSE",
+            "ACACIA_LEAVES",
+            "BIRCH_LEAVES",
+            "DARK_OAK_LEAVES",
+            "JUNGLE_LEAVES",
+            "OAK_LEAVES",
+            "SPRUCE_LEAVES",
+            "SUNFLOWER",
+            "ROSE_BUSH",
+            "ROSE_RED",
+            "DANDELION_YELLOW",
+            "DANDELION",
             "VINE",
             "BROWN_MUSHROOM",
-            "HUGE_MUSHROOM_1",
-            "HUGE_MUSHROOM_2",
+            "BROWN_MUSHROOM_BLOCK",
+            "RED_MUSHROOM_BLOCK",
             "RED_MUSHROOM",
-            "MELON_BLOCK",
+            "MELON",
+            "MELON_STEM",
+            "PUMPKIN_STEM",
             "WHEAT",
             "PUMPKIN"
           ],
@@ -317,6 +329,6 @@
     }
   ],
   "gameData": {
-    "class com.voxelgameslib.voxelgameslib.game.DefaultGameData": {}
+    "class com.voxelgameslib.voxelgameslib.api.game.DefaultGameData": {}
   }
 }
